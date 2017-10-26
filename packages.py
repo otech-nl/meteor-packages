@@ -1,4 +1,4 @@
-''' extract package data from README and write is as a packages file '''
+''' extract package data from README and write as a packages file '''
 
 from bs4 import BeautifulSoup
 
