@@ -35,17 +35,17 @@ Templates can be controlled through helpers and event handlers (including onCrea
 
 <p>Some final tips & tricks:
 <ul>
-    <li>waitOn (package Iron Router) lets you defer execution untill a subscription has finished</li>
+    <li><tt>waitOn</tt> (package Iron Router) lets you defer execution untill a subscription has finished</li>
     <li>Meteor methods <i>can</i> be called synchronously on the server, but <i>must</i> be called asynchronously  on the client</li>
     <li>Global variables aren't available from templates. Access them with template helper.</li>
-    <li>add c:\Windows\System32 to path on tasklist.exe error</li>
+    <li>add <tt>c:\Windows\System32</tt> to path on tasklist.exe error</li>
     <li>The autorun function lets you define a function that is run automatically when a reactive data source changes.</li>
     </ul>
 </ul></p>
 
 <h2>Packages</h2>
 
-Just like all other modern frameworks, Meteor relies heavily on third party packages from its thriving eco-system. The Meteor <a href="http://guide.meteor.com">Guide</a> gives an opinionated overview of which packages to use. The table below shows these packages in the middle column, along with some additional packages I prefer in the final column. For more packages visit <a href="https://atmospherejs.com/packages/most-used">Atmosphere js</a>.
+Just like all other modern frameworks, Meteor relies heavily on third party packages from its thriving eco-system. The Meteor <a href="http://guide.meteor.com">Guide</a> gives an opinionated overview of which packages to use. The table below shows these packages in the middle column, along with some additional packages I prefer in the final column. For more packages visit <a href="https://atmospherejs.com/packages/most-used">Atmosphere js</a>. You can import all these package definitions by importing the file <tt>packages</tt> from this repository into the file <tt>packages</tt> of your project and the remove any package you don't need.
 
 <table id="packages">
 <tr><th>subject</th><th>guide</th><th>extra</th></tr>
