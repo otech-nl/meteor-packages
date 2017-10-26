@@ -1,11 +1,3 @@
-<style>
-td {vertical-align: top; padding: 3pt;}
-th {text-align: left}
-tr:nth-child(even) {background: #ddd}
-dt {font-weight: bold}
-</style>
-
-<title>Meteor overview and major packages</title>
 <h1>Meteor overview and major packages</h1>
 
 This repository contains a brief overview of <a href="http://meteor.com">Meteor</a> and an overview of its major packages.
@@ -66,7 +58,6 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
         <li><a href="https://docs.meteor.com/packages/markdown.html">markdown</a></li>
         <li><a href="https://docs.meteor.com/packages/underscore.html">underscore</a></li>
     </td><td>
-
     </td>
 </tr>
 <tr><td>Collections</td><td>
@@ -74,9 +65,7 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
     <li><a href="http://atmospherejs.com/aldeed/simple-schema">aldeed:simple-schema</a> (or <a href="http://atmospherejs.com/jagi/astronomy">jagi:astronomy</a>)</li>
     <li><a href="http://atmospherejs.com/dburles/collection-helpers">dburles:collection-helpers</a></li>
     <li><a href="http://atmospherejs.com/percolate/migrations">percolate:migrations</a></li>
-
     </td><td>
-
     </td>
 </tr>
 <tr><td>Data-loading</td><td>
@@ -84,15 +73,11 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
 <li><a href="http://atmospherejs.com/reywood/publish-composite">reywood:publish-composite</a></li>
 <li><a href="http://atmospherejs.com/simple/rest">simple:rest</a></li>
 <li><a href="http://atmospherejs.com/tmeasday/publish-counts">tmeasday:publish-counts</a></li>
-
 </td><td>
-
 </td></tr>
 <tr><td>Methods</td><td>
 <li><a href="https://atmospherejs.com/mdg/validated-method">mdg:validated-method</a></li>
-
 </td><td>
-
 </td></tr>
 <tr><td>User accounts</td><td>
 <li><a href="http://atmospherejs.com/alanning/roles">alanning:roles</a></li>
@@ -100,29 +85,24 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
 <li><a href="http://atmospherejs.com/useraccounts/flow-routing">useraccounts:flow-routing</a></li>
 <li><a href="http://atmospherejs.com/useraccounts/core">useraccounts:core</a></li>
 <li><a href="http://atmospherejs.com/useraccounts/unstyled">useraccounts:unstyled</a></li>
-
 </td><td>
 <li><a href="http://atmospherejs.com/didericis/permissions-mixin">didericis:permissions-mixin</a></li>
 <li><a href="http://atmospherejs.com/matb33/collection-hooks">matb33:collection-hooks</a></li>
 <li><a href="http://atmospherejs.com/ongoworks/security">ongoworks:security</a></li>
 <li><a href="http://atmospherejs.com/ostrio/user-status">ostrio:user-status</a> (or <a href="http://atmospherejs.com/tmeasday/presence">tmeasday:presence</a>)</li>
-
 </td></tr>
 <tr><td>Routing</td><td>
 <li><a href="http://atmospherejs.com/arillo/flow-router-helpers">arillo:flow-router-helpers</a></li>
 <li><a href="http://atmospherejs.com/kadira/flow-router">kadira:flow-router</a></li>
 <li><a href="http://atmospherejs.com/nimble/restivus">nimble:restivus</a></li>
 <li><a href="http://atmospherejs.com/zimme/active-route">zimme:active-route</a></li>
-
 </td><td>
 <li><a href="http://atmospherejs.com/ostrio/flow-router-extra">ostrio:flow-router-extra</a></li>
-
 </td></tr>
 <tr><td>UI-UX</td><td>
 <li><a href="http://atmospherejs.com/aldeed/autoform">aldeed:autoform</a></li>
 <li><a href="http://atmospherejs.com/percolate/momentum">percolate:momentum</a></li>
 <li><a href="http://atmospherejs.com/tap/i18n">tap:i18n</a> (or <a href="http://atmospherejs.com/universe/18n">universe:18n</a>)</li>
-
 </td><td>
 <li><a href="http://atmospherejs.com/aldeed/tabular">aldeed:tabular</a></li>
 <li><a href="http://atmospherejs.com/aldeed/template-extension">aldeed:template-extension</a></li>
@@ -133,13 +113,7 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
 <li><a href="http://atmospherejs.com/chrismbeckett/toastr">chrismbeckett:toastr</a></li>
 <li><a href="http://atmospherejs.com/matb33:bootstrap-glyphicons">matb33:bootstrap-glyphicons</a></li>
 </td></tr>
-<tr><td>Security</td><td>
-
-</td><td>
-
-</td></tr>
 <tr><td>Other</td><td>
-
 </td><td>
 <li><a href="http://atmospherejs.com/dburles/google-maps">dburles:google-maps</a></li>
 <li><a href="http://atmospherejs.com/easy/search">easy:search</a></li>
@@ -155,18 +129,14 @@ Just like all other modern frameworks, Meteor relies heavily on third party pack
 <li><a href="http://atmospherejs.com/practicalmeteor/mocha">practicalmeteor:mocha</a></li>
 <li><a href="http://atmospherejs.com/velocity/meteor-stubs">velocity:meteor-stubs</a></li>
 <li><a href="http://atmospherejs.com/xolvio/cleaner">xolvio:cleaner</a></li>
-
 </td><td>
 <li><a href="https://chimp.readme.io/">Chimp</a> (not really a package)</li>
-
 </td></tr>
 <tr><td>Deployment</td><td>
 <li><a href="http://atmospherejs.com/dferber/prerender">dferber:prerender</a></li>
 <li><a href="http://atmospherejs.com/kadira/dochead">kadira:dochead</a></li>
 <li><a href="http://atmospherejs.com/mdg/seo">mdg:seo</a></li>
 <li><a href="http://atmospherejs.com/okgrow/analytics">okgrow:analytics</a></li>
-
 </td><td>
-
 </td></tr>
 </table>
