@@ -1,8 +1,8 @@
-<h1>Meteor overview and major packages</h1>
+# Meteor overview and major packages
 
 This repository contains a brief overview of <a href="http://meteor.com">Meteor</a> and an overview of its major packages.
 
-<h2>Overview</h2>
+## Overview
 
 The following features distinguish Meteor from other web-platforms:
 <dl>
@@ -12,7 +12,8 @@ The following features distinguish Meteor from other web-platforms:
         <dt>no REST</dt><dd>This also means that there is not need for REST interfaces, although publish/subscribe (explained below) is similar.</dd>
     </dl></dd>
     <dt>full-stack</dt><dd>In Meteor the functionality on both the server (through node.js) and the client (through the browser) is implemented in Javascript (ES2015+ to be exact). This saves the developer from continuously having to switch between languages.</dd>
-    <dt>no SQL</dt><dd>Meteor uses Mongodb as its databackend. Mongodb is document-based and does not use SQL.</dd>
+        <dt>multi-platform</dt><dd>With Meteor you can build apps for web, iOS, and Android from the samen code base. Nou mar nerd Cordova for platform-specific features.</dd>
+    <dt>no SQL</dt><dd>Meteor uses Mongodb as its data backend. Mongodb is document-based and does not use SQL.</dd>
     <dt>reactivity</dt><dd>Data in Meteor is updated everywhere once it changes. This includes all active clients, which adds to the smooth user-experience.</dd>
 </dl>
 
