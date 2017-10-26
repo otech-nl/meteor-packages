@@ -1,0 +1,82 @@
+# packages from Meteor guide
+
+# Collections
+aldeed:collection2
+aldeed:simple-schema
+jagi:astronomy
+dburles:collection-helpers
+percolate:migrations
+
+# Data-loading
+percolate:find-from-publication
+reywood:publish-composite
+simple:rest
+tmeasday:publish-counts
+
+# Methods
+mdg:validated-method
+
+# User accounts
+alanning:roles
+arillo:flow-router-helpers
+useraccounts:flow-routing
+useraccounts:core
+useraccounts:unstyled
+
+# Routing
+arillo:flow-router-helpers
+kadira:flow-router
+nimble:restivus
+zimme:active-route
+
+# UI-UX
+aldeed:autoform
+percolate:momentum
+tap:i18n
+universe:18n
+
+# Testing
+dburles:factory
+hwillson:stub-collections
+johanbrook:publication-collector
+meteortesting:mocha
+practicalmeteor:mocha
+velocity:meteor-stubs
+xolvio:cleaner
+
+# Deployment
+dferber:prerender
+kadira:dochead
+mdg:seo
+okgrow:analytics
+
+# extra packages
+
+# User accounts
+didericis:permissions-mixin
+matb33:collection-hooks
+ongoworks:security
+ostrio:user-status
+tmeasday:presence
+
+# Routing
+ostrio:flow-router-extra
+
+# UI-UX
+aldeed:tabular
+aldeed:template-extension
+raix:push
+aslagle:reactive-table
+semantic:ui
+twbs:bootstrap
+chrismbeckett:toastr
+matb33:bootstrap-glyphicons
+
+# Other
+dburles:google-maps
+easy:search
+momentjs:moment
+sach:flow-db-admin
+
+# Testing
+Chimp
