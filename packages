@@ -1,4 +1,11 @@
-# packages from Meteor guide
+### packages from Meteor guide ###
+
+# Out of the box
+http
+jQuery
+markdown
+meteor:ecmascript
+underscore
 
 # Collections
 aldeed:collection2
@@ -26,6 +33,7 @@ useraccounts:unstyled
 # Routing
 arillo:flow-router-helpers
 kadira:flow-router
+kadira:blaze-layout
 nimble:restivus
 zimme:active-route
 
@@ -50,7 +58,7 @@ kadira:dochead
 mdg:seo
 okgrow:analytics
 
-# extra packages
+### extra packages ###
 
 # User accounts
 didericis:permissions-mixin
@@ -65,12 +73,13 @@ ostrio:flow-router-extra
 # UI-UX
 aldeed:tabular
 aldeed:template-extension
-raix:push
 aslagle:reactive-table
+chrismbeckett:toastr
+fortawesome:fontawesome
+matb33:bootstrap-glyphicons
+raix:push
 semantic:ui
 twbs:bootstrap
-chrismbeckett:toastr
-matb33:bootstrap-glyphicons
 
 # Other
 dburles:google-maps
